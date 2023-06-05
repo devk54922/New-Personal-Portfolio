@@ -1,0 +1,289 @@
+@media only screen and (max-width: 600px) {
+    body {
+     
+    }
+    nav{
+        position:fixed;
+        /* top: 100vh; */
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+   .overlay{
+    width: 100%;
+    height: 100%;
+   }
+    .nav-grow{
+        padding-bottom: 25px;        
+        /* justify-content: flex-start; */
+        height: 18vh;
+        /* position: fixed; */
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #fff;
+        transition: .3s;
+    }
+    .mobile-ul{
+        padding-bottom: 10px;
+    }
+    .mobile-ul div{
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* column-gap: 10px; */
+        /* row-gap: 15px; */
+        /* border: 3px solid red; */
+        width: 30vw;
+        display: flex;
+        justify-content:center; 
+         align-items: center; 
+       /* column-gap: 65px;  */
+        flex-direction: column;
+    
+    }
+    .mobile-navbar a{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    
+    nav ul:first-child{
+        /* border: 2px solid red; */
+        display: flex;
+        position: relative;
+        left: 1rem;
+        }
+    nav ul:nth-child(2){
+        display: none;
+    }
+   
+    .mobile-app{
+        position: relative;
+        right: 1rem;
+        font-size: larger;
+        color: var(--social-media-color);
+        display: block;
+        /* border: 5px solid red; */
+    }
+   
+    .uil-times{
+        display: none;
+    }
+    #cross-display-block{
+        display: block;
+        position: relative;
+        bottom: 3.5rem;
+        /* right: rem; */
+    }
+
+
+    .main-container{
+        background-color: var(--bg-color); 
+    /* border: 15px solid red; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 1px;
+        flex-wrap: wrap-reverse;
+    }
+    .fname{
+        font-size: 30px;
+         /* position: relative; */
+        /* bottom: 15rem; */
+        width: 100%;
+        height: 5vh;
+        
+        /* top: 1rem; */
+     /* left: 1rem;   */
+        /* border: 2px solid rgb(5, 39, 5); */
+    }
+    .social-media{
+         /* border: 2px solid red;  */
+        position: absolute;  
+        top: 2rem;
+        left: 15px;
+
+        width: 5vw;
+    }
+    .home{
+        height: 50vh;
+        /* border: 5px solid  rgb(255, 234, 0); */
+        /* position: relative; */
+        /* top: 10px; */
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 5px;
+        /* flex-wrap: wrap; */
+        /* background-color: #be8585; */
+    }
+    .first-image img{
+        width: 45vw;
+        height: 24vh;
+        /* border: 5px solid orange; */
+        position: relative;
+        left: 6rem;
+        top: 3rem;
+    }
+    .position{
+        /* border: 2px solid green; */
+         position: relative; 
+        /* bottom: 1.5rem; */
+        /* left: 1rem;  */
+    }
+    .web-dev{
+        /* border: 5px solid purple; */
+    }
+    .line{
+        width: 10vw;
+    }
+    .para{
+        /* border: 10px solid red; */
+        /* position: relative;
+        bottom: 10rem;
+        left: 1rem; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #download_btn{
+        top: -30px;
+        position: relative;
+       
+        /* border: 2px solid red; */
+    }
+    .about{
+        width: 100%;
+        /* border:  2px solid  black; */
+        gap: 10px;
+;
+    }
+    .about-top-content{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .about-heading{     
+   /* border: 2px solid red; */
+        padding: 0;
+    }
+    .about-items, .about-items img{
+        /* border: 2px solid red; */
+        height: 55vh;
+        width: 55vw;
+    }
+    .about-content{
+        /* border: 2px solid red; */
+        justify-content: center;
+        display: flex;
+       min-width: 100vw;
+       height: 40vh;
+       
+    }
+    .about-me{
+        border: .5px solid grey;
+        box-shadow: var(--box-shadow);
+        width: 28vw;
+        margin-left: 4px;
+        /* height: 8vh; */
+        overflow-wrap: break-word;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    small{
+        margin: 0;
+        padding: 0;
+        /* border: 2px solid  red; */
+    }
+    .about-me div{
+        /* border: 2px solid red; */
+        min-height: 10px;
+        font-family: var(--font-family);
+        font-weight: bold;
+        color: var(--social-media-color);
+        position: relative;
+    }
+    .about-content p{
+        margin-left:5px ;
+    }
+    .contact-container{
+        /* border: 4px solid orange; */
+        width: 100vw;
+       
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .top-contact-content{
+        /* border: 2px solid red; */
+        /* position: relative;
+        right: 4rem; */
+        /* width: 100vw; */
+    }
+  
+   .skills-container{
+    gap: 20px;
+   }
+   .services-box{
+    height: 30vh;
+    width: 70vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .services-box span{
+    position: relative;
+    left: 8px;
+   };
+#message{
+    width: 75vw;
+}
+.copyright{
+    position: relative;
+    bottom: 3rem;
+}
+   .project-filter span{
+    display: flex;
+    /* column-gap: 2px; */
+    /* padding: 1px; */
+   }
+   .main-project-box{
+    /* border: 2px solid red; */
+    width: 100%;
+
+   }
+   .projects-box{
+    border: 1px solid grey;
+   }
+   .contact-form button{
+    display: flex;
+
+   }
+   .contact-form input{
+     width: 60%;
+   }
+   #message{
+    width: 100%;
+   }
+   .footer-container{
+    /* border: 5px solid  red; */
+    width: 100%;
+   }
+   .modal-container{
+    /* border: 5px solid red; */
+    width: 80vw;
+    min-height: 40vh;
+   }
+   .closeModal{
+    /* border: 20px solid red; */
+    /* position: relative; */
+    /* right: 15rem; */
+    /* left: 9.5rem; */
+    /* top: 1px; */
+
+   }
+  }
